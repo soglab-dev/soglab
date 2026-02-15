@@ -258,6 +258,24 @@
       "accessCount": 1,
       "lastAccessed": 1771165173048,
       "type": "file"
+    },
+    {
+      "path": "Dockerfile",
+      "accessCount": 1,
+      "lastAccessed": 1771165226776,
+      "type": "file"
+    },
+    {
+      "path": "docker-compose.yml",
+      "accessCount": 1,
+      "lastAccessed": 1771165227037,
+      "type": "file"
+    },
+    {
+      "path": ".dockerignore",
+      "accessCount": 1,
+      "lastAccessed": 1771165227563,
+      "type": "file"
     }
   ],
   "userDirectives": []
