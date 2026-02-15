@@ -92,9 +92,21 @@
   },
   "hotPaths": [
     {
+      "path": "lib/i18n.ts",
+      "accessCount": 10,
+      "lastAccessed": 1771164930020,
+      "type": "file"
+    },
+    {
       "path": "components/ui/navigation-menu.tsx",
       "accessCount": 3,
       "lastAccessed": 1771164748152,
+      "type": "file"
+    },
+    {
+      "path": "app/[locale]/layout.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1771164941707,
       "type": "file"
     },
     {
@@ -119,6 +131,12 @@
       "path": "app/layout.tsx",
       "accessCount": 2,
       "lastAccessed": 1771164789812,
+      "type": "file"
+    },
+    {
+      "path": "next.config.mjs",
+      "accessCount": 2,
+      "lastAccessed": 1771164958415,
       "type": "file"
     },
     {
@@ -155,6 +173,30 @@
       "path": "components/ui/dropdown-menu.tsx",
       "accessCount": 1,
       "lastAccessed": 1771164709546,
+      "type": "file"
+    },
+    {
+      "path": "messages/ko.json",
+      "accessCount": 1,
+      "lastAccessed": 1771164821037,
+      "type": "file"
+    },
+    {
+      "path": "messages/en.json",
+      "accessCount": 1,
+      "lastAccessed": 1771164821219,
+      "type": "file"
+    },
+    {
+      "path": "middleware.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771164821348,
+      "type": "file"
+    },
+    {
+      "path": "app/[locale]/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771164828328,
       "type": "file"
     }
   ],

@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Innovating at the Intersection of AI, Games & Software",
+    "subtitle": "Soglab delivers cutting-edge technology solutions",
+    "cta": "View Projects"
+  },
+  "services": {
+    "title": "Services",
+    "software": {
+      "title": "Software Development",
+      "description": "Cloud-native applications and enterprise solutions"
+    },
+    "game": {
+      "title": "Game Development",
+      "description": "Real-time multiplayer games and AI-powered game systems"
+    },
+    "ai": {
+      "title": "Deep Learning R&D",
+      "description": "Computer vision, NLP, and reinforcement learning research"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Showcasing our key ongoing projects",
+    "viewMore": "View More",
+    "comingSoon": "Coming Soon"
+  },
+  "about": {
+    "title": "About Soglab",
+    "vision": "Building a better future with innovative technology",
+    "description": "Soglab is a tech company creating innovative solutions at the intersection of AI, games, and software development."
+  },
+  "footer": {
+    "copyright": "© 2026 Soglab. All rights reserved.",
+    "contact": "Contact"
+  }
+}
