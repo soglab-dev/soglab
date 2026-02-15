@@ -104,6 +104,24 @@
       "type": "file"
     },
     {
+      "path": "tailwind.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1771164774258,
+      "type": "file"
+    },
+    {
+      "path": "app/globals.css",
+      "accessCount": 2,
+      "lastAccessed": 1771164782636,
+      "type": "file"
+    },
+    {
+      "path": "app/layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1771164789812,
+      "type": "file"
+    },
+    {
       "path": "package.json",
       "accessCount": 1,
       "lastAccessed": 1771164636502,
