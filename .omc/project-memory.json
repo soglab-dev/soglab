@@ -228,6 +228,24 @@
       "accessCount": 1,
       "lastAccessed": 1771165081751,
       "type": "file"
+    },
+    {
+      "path": "lib/projects.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771165102158,
+      "type": "file"
+    },
+    {
+      "path": "components/project-card.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771165102378,
+      "type": "file"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771165109199,
+      "type": "file"
     }
   ],
   "userDirectives": []
