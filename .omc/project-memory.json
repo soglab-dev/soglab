@@ -146,6 +146,12 @@
       "type": "file"
     },
     {
+      "path": "app/[locale]/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1771165129383,
+      "type": "file"
+    },
+    {
       "path": "package.json",
       "accessCount": 1,
       "lastAccessed": 1771164636502,
@@ -197,12 +203,6 @@
       "path": "middleware.ts",
       "accessCount": 1,
       "lastAccessed": 1771164821348,
-      "type": "file"
-    },
-    {
-      "path": "app/[locale]/page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1771164828328,
       "type": "file"
     },
     {
