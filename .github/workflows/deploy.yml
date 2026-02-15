@@ -27,10 +27,16 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Move files for GitHub Pages
+        run: |
+          mkdir public
+          cp -r out/* public/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./public
+          retention-days: 1
 
       - name: Deploy to GitHub Pages
         id: deployment
