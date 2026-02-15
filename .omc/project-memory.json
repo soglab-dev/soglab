@@ -98,15 +98,15 @@
       "type": "file"
     },
     {
-      "path": "components/ui/navigation-menu.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1771164748152,
+      "path": "app/[locale]/layout.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1771164993184,
       "type": "file"
     },
     {
-      "path": "app/[locale]/layout.tsx",
+      "path": "components/ui/navigation-menu.tsx",
       "accessCount": 3,
-      "lastAccessed": 1771164941707,
+      "lastAccessed": 1771164748152,
       "type": "file"
     },
     {
@@ -197,6 +197,18 @@
       "path": "app/[locale]/page.tsx",
       "accessCount": 1,
       "lastAccessed": 1771164828328,
+      "type": "file"
+    },
+    {
+      "path": "components/theme-provider.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771164984936,
+      "type": "file"
+    },
+    {
+      "path": "components/theme-toggle.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771164985123,
       "type": "file"
     }
   ],
