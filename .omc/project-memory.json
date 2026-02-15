@@ -252,6 +252,12 @@
       "accessCount": 1,
       "lastAccessed": 1771165152200,
       "type": "file"
+    },
+    {
+      "path": "app/[locale]/about/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771165173048,
+      "type": "file"
     }
   ],
   "userDirectives": []
