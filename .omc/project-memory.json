@@ -104,6 +104,12 @@
       "type": "file"
     },
     {
+      "path": "next.config.mjs",
+      "accessCount": 4,
+      "lastAccessed": 1771165195366,
+      "type": "file"
+    },
+    {
       "path": "components/ui/navigation-menu.tsx",
       "accessCount": 3,
       "lastAccessed": 1771164748152,
@@ -131,12 +137,6 @@
       "path": "app/layout.tsx",
       "accessCount": 2,
       "lastAccessed": 1771164789812,
-      "type": "file"
-    },
-    {
-      "path": "next.config.mjs",
-      "accessCount": 2,
-      "lastAccessed": 1771164958415,
       "type": "file"
     },
     {
