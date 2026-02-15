@@ -9,6 +9,7 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  basePath: '/soglab',
 };
 
 export default withNextIntl(nextConfig);
