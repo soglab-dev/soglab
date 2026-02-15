@@ -276,6 +276,24 @@
       "accessCount": 1,
       "lastAccessed": 1771165227563,
       "type": "file"
+    },
+    {
+      "path": "docs/setup.md",
+      "accessCount": 1,
+      "lastAccessed": 1771165251865,
+      "type": "file"
+    },
+    {
+      "path": "docs/deployment.md",
+      "accessCount": 1,
+      "lastAccessed": 1771165252121,
+      "type": "file"
+    },
+    {
+      "path": "docs/architecture.md",
+      "accessCount": 1,
+      "lastAccessed": 1771165252399,
+      "type": "file"
     }
   ],
   "userDirectives": []
