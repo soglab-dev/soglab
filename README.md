@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Soglab Website
 
-## Getting Started
+> Soglab company portfolio website showcasing software consulting, game development, and deep learning R&D projects.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
+## Features
+
+- 🌍 **Multilingual**: Korean and English support
+- 🌓 **Theme Switching**: Dark and light mode
+- 📱 **Responsive**: Mobile-first design
+- ⚡ **Fast**: Static site generation
+- 🎨 **Minimal Design**: Clean and professional UI
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Components**: shadcn/ui
+- **i18n**: next-intl
+- **Icons**: Lucide React
+
+## Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### GitHub Pages
+Push to `main` branch. GitHub Actions will automatically deploy.
 
-## Learn More
+### Docker
+```bash
+docker-compose up -d
+```
 
-To learn more about Next.js, take a look at the following resources:
+See [docs/deployment.md](docs/deployment.md) for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Setup Guide](docs/setup.md)
+- [Deployment Guide](docs/deployment.md)
+- [Architecture](docs/architecture.md)
+- [Design Document](docs/plans/2026-02-15-soglab-website-design.md)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT © Soglab
