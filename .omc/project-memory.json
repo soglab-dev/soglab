@@ -216,6 +216,12 @@
       "accessCount": 1,
       "lastAccessed": 1771164985123,
       "type": "file"
+    },
+    {
+      "path": "components/header.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771165042313,
+      "type": "file"
     }
   ],
   "userDirectives": []
