@@ -222,6 +222,12 @@
       "accessCount": 1,
       "lastAccessed": 1771165042313,
       "type": "file"
+    },
+    {
+      "path": "components/footer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1771165081751,
+      "type": "file"
     }
   ],
   "userDirectives": []
