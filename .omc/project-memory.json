@@ -92,33 +92,39 @@
   },
   "hotPaths": [
     {
+      "path": "next.config.mjs",
+      "accessCount": 20,
+      "lastAccessed": 1771230833557,
+      "type": "file"
+    },
+    {
       "path": "lib/i18n.ts",
-      "accessCount": 10,
-      "lastAccessed": 1771164930020,
+      "accessCount": 15,
+      "lastAccessed": 1771213798160,
+      "type": "file"
+    },
+    {
+      "path": "app/page.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1771213568157,
       "type": "file"
     },
     {
       "path": "app/[locale]/layout.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1771164993184,
+      "accessCount": 7,
+      "lastAccessed": 1771213778998,
       "type": "file"
     },
     {
-      "path": "next.config.mjs",
+      "path": "middleware.ts",
       "accessCount": 4,
-      "lastAccessed": 1771165195366,
+      "lastAccessed": 1771213499049,
       "type": "file"
     },
     {
       "path": "components/ui/navigation-menu.tsx",
       "accessCount": 3,
       "lastAccessed": 1771164748152,
-      "type": "file"
-    },
-    {
-      "path": "app/page.tsx",
-      "accessCount": 2,
-      "lastAccessed": 1771164726862,
       "type": "file"
     },
     {
@@ -149,6 +155,12 @@
       "path": "app/[locale]/page.tsx",
       "accessCount": 2,
       "lastAccessed": 1771165129383,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1771165308076,
       "type": "file"
     },
     {
@@ -197,12 +209,6 @@
       "path": "messages/en.json",
       "accessCount": 1,
       "lastAccessed": 1771164821219,
-      "type": "file"
-    },
-    {
-      "path": "middleware.ts",
-      "accessCount": 1,
-      "lastAccessed": 1771164821348,
       "type": "file"
     },
     {
