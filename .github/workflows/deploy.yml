@@ -30,7 +30,7 @@ jobs:
       - name: Move files for GitHub Pages
         run: |
           mkdir public
-          cp -r out/soglab/* public/
+          cp -r out/* public/
           touch public/.nojekyll
 
       - name: Upload artifact
