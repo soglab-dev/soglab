@@ -8,7 +8,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
 };
 
 export default withNextIntl(nextConfig);
