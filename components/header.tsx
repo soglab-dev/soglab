@@ -17,7 +17,7 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b glass">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-xl font-bold">Soglab</span>
@@ -33,9 +33,8 @@ export function Header() {
               <Link
                 key={item.href}
                 href={localizedHref}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  pathname === localizedHref ? "text-foreground" : "text-muted-foreground"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${pathname === localizedHref ? "text-foreground" : "text-muted-foreground"
+                  }`}
               >
                 {item.label}
               </Link>

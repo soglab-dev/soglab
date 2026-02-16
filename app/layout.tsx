@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
-import { Noto_Sans_KR, JetBrains_Mono } from "next/font/google";
+import { Noto_Sans_KR, JetBrains_Mono, Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import { CustomCursor } from "@/components/ui/custom-cursor";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const notoSans = Noto_Sans_KR({
   subsets: ["latin"],
@@ -27,7 +34,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <body className={`${notoSans.variable} ${jetbrains.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${notoSans.variable} ${jetbrains.variable} font-sans antialiased`}>
+        <CustomCursor />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
