@@ -9,9 +9,11 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 interface ProjectCardProps {
   project: Project;
+  title?: string;
+  description?: string;
 }
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({ project, title, description }: ProjectCardProps) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -63,7 +65,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       >
         <Image
           src={project.image}
-          alt={project.title}
+          alt={title || project.title}
           width={600}
           height={400}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -79,10 +81,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
           style={{ transform: "translateZ(20px)" }}
           className="line-clamp-1 group-hover:text-primary transition-colors text-xl"
         >
-          {project.title}
+          {title || project.title}
         </CardTitle>
         <CardDescription className="line-clamp-2 mt-2">
-          {project.description}
+          {description || project.description}
         </CardDescription>
       </CardHeader>
       <CardContent className="p-6 pt-0 transform-style-3d translate-z-20">

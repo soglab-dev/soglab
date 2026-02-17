@@ -38,5 +38,31 @@
   "footer": {
     "copyright": "© 2026 Soglab. All rights reserved.",
     "contact": "Contact"
+  },
+  "project_items": {
+    "ai-chatbot": {
+      "title": "AI Chatbot System",
+      "description": "LLM-based customer support chatbot understanding natural language questions and generating answers"
+    },
+    "multiplayer-game": {
+      "title": "Real-time Multiplayer Game",
+      "description": "WebSocket-based real-time synchronized game server"
+    },
+    "cv-tool": {
+      "title": "Computer Vision Analysis Tool",
+      "description": "CV analysis platform for image processing and object detection"
+    },
+    "cloud-dashboard": {
+      "title": "Cloud Management Dashboard",
+      "description": "Infrastructure monitoring and resource management system"
+    },
+    "game-ai": {
+      "title": "Game AI Engine",
+      "description": "Reinforcement learning-based NPC behavior and decision-making system"
+    },
+    "nlp-pipeline": {
+      "title": "Natural Language Processing Pipeline",
+      "description": "Automated platform for text analysis, sentiment classification, and summarization"
+    }
   }
 }

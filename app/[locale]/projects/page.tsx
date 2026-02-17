@@ -8,6 +8,7 @@ import { projects } from "@/lib/projects";
 export default function ProjectsPage({ params: { locale } }: { params: { locale: string } }) {
   setRequestLocale(locale);
   const t = useTranslations("projects");
+  const tItems = useTranslations("project_items");
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -21,7 +22,12 @@ export default function ProjectsPage({ params: { locale } }: { params: { locale:
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              title={tItems(`${project.slug}.title`)}
+              description={tItems(`${project.slug}.description`)}
+            />
           ))}
         </div>
       </main>
