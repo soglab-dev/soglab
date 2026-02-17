@@ -1,10 +1,12 @@
 import { useTranslations } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ProjectCard } from "@/components/project-card";
 import { projects } from "@/lib/projects";
 
-export default function ProjectsPage() {
+export default function ProjectsPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = useTranslations("projects");
 
   return (

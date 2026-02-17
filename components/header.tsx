@@ -11,9 +11,9 @@ export function Header() {
   const pathname = usePathname();
 
   const navItems = [
-    { href: "/ko", label: t("home") },
-    { href: "/ko/projects", label: t("projects") },
-    { href: "/ko/about", label: t("about") },
+    { href: "/", label: t("home") },
+    { href: "/projects", label: t("projects") },
+    { href: "/about", label: t("about") },
   ];
 
   return (
@@ -27,7 +27,10 @@ export function Header() {
           {navItems.map((item) => {
             // Get the locale from current pathname
             const locale = pathname.split("/")[1] || "ko";
-            const localizedHref = `/${locale}${item.href.slice(2)}`;
+            // Construct localized href correctly
+            // If item.href is '/', result is simply `/${locale}`
+            // Otherwise it is `/${locale}${item.href}`
+            const localizedHref = item.href === "/" ? `/${locale}` : `/${locale}${item.href}`;
 
             return (
               <Link
