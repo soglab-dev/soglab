@@ -49,7 +49,7 @@ jobs:
 1.  **Checkout**: 코드를 내려받습니다.
 2.  **Detect package manager**: `npm`, `yarn`, `pnpm` 중 어떤 것을 사용하는지 자동으로 감지합니다.
 3.  **Setup Node**: Node.js 20 버전을 설치하고 캐싱을 설정합니다.
-4.  **Setup Pages**: GitHub Pages 배포를 위한 기본 설정을 자동으로 구성합니다.
+4.  **Setup Pages**: GitHub Pages 배포를 위한 기본 설정을 자동으로 구성합니다. `next.config.mjs`의 `output: 'export'` 설정이 이미 되어 있으므로 별도의 정적 사이트 생성기 설정은 하지 않습니다.
 5.  **Restore cache**: 이전 빌드의 캐시를 복구하여 빌드 속도를 높입니다.
 6.  **Install dependencies**: `npm ci`를 통해 의존성 패키지를 설치합니다.
 7.  **Build with Next.js**: `next build`를 실행하여 정적 사이트를 생성합니다 (`./out` 폴더 생성).
